@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300;400&family=Julius+Sans+One&display=swap');
+
+
+body {
+    margin: 0 auto;
+    font-family: 'Darker Grotesque';
+
+}
+
+#top {
+    position: relative;
+    margin-bottom: 0;
+}
+h1 {
+    font-family: 'Julius Sans One';
+    color: rgb(196, 209, 208);
+    font-size: 4.2em;
+    letter-spacing: .2em;
+    margin: 0!important;
+    padding: 0!important;
+    position:absolute;
+    bottom:-15px;
+}
+
+a {
+    color: rgb(59, 59, 59);
+   text-decoration: none;
+}
+
+a:hover {
+    color: rgb(51, 49, 47);
+}
+.container {
+    margin: 15% auto;
+    padding: 8em auto;
+    width: 50%;
+    background: rgb(228, 241, 240);
+    text-align:center
+}
+
+
+form {
+    margin-top: 0;
+    padding: .7em;
+    background-color: rgba(115, 128, 127, 0.7);
+    color: white;
+}
+
+input {
+    border: 2px rgb(235, 246, 250) solid;
+    outline: none;
+    background: rgb(235, 246, 250);
+    padding: .7em;
+    border-radius: 4px;
+    box-sizing: border-box!important;
+}
+
+input:focus {
+    border-color: rgb(102, 123, 131);
+    box-sizing: border-box!important;
+}
+
+button {
+    padding: .7em;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background: azure;
+    color: rgb(78, 103, 109);
+}
+
+button:active {
+    background: rgb(102, 123, 131);
+    color: white
+}
+
+table {
+    padding: .5em;
+    margin-top: 2em;
+
+}
+
+
+thead {
+    font-size: 1em;
+    color: rgb(95, 95, 95);
+    text-transform: uppercase;
+
+}
+tbody {
+    background: rgb(228, 241, 240);
+    font-size: 1em;
+    line-break: anywhere;
+    
+}
+
+tr {
+    margin: 1.8em;
+    padding: .8em;
+    letter-spacing: .05em;
+    font-size: 1.2em;
+    font-weight: 400;
+    text-align: left!important;
+    transition: all .3s ease-in;
+}
+
+tr:hover {
+    background: rgb(255, 255, 255);
+}
+
